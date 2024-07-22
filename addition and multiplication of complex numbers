@@ -1,0 +1,8 @@
+a=int(input("Enter the real part of 1st complex number:  "))
+b=int(input("Enter the img part of 1st complex number:  "))
+c=int(input("Enter the real part of 2nd complex number:  "))
+d=int(input("Enter the img part of 2nd complex number:  "))
+#adding complex numbers
+print("the addition of complex numbers:  "+str(a+c)+"+i"+str(b+d))
+#multiplication complex numbers
+print("the multiplication of complex numners:  "+str(a*c)+"+i"+str(b*d))
