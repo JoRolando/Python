@@ -1,0 +1,5 @@
+P=int(input("ENTER PRINCIPAL:  "))
+R=int(input("ENTER RATE OF INTEREST:  ")) 
+T=int(input("ENTER NO.OF YEARS:  "))
+SI = (P * R* T)/100
+print(SI)
