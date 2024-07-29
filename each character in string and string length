@@ -1,0 +1,7 @@
+# program on string
+a=str(input("ENTER A STRING :  "))
+j=0
+for i in a :
+	print(i)
+	j=j+1
+print("string length = ",j)	 
