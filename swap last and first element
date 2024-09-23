@@ -1,0 +1,10 @@
+#l=[10,20,30,40,50]
+n=int(input("Enter the size of the list: "))
+l=[]
+for i in range(0,n):
+	l.append(int(input("Enter element l[" + str(i) + "]: ")))
+print(l)
+temp = l[0]
+l[0] = l[(len(l)-1)]
+l[(len(l)-1)] = temp
+print(l)
