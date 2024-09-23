@@ -1,0 +1,8 @@
+#l=[2,3,4,1,5,6,7,8,10,9]
+n=int(input("Enter the range of list: "))
+l=[]
+for i in range(0,n):
+	l.append(int(input("Enter element l[" + str(i) + "]: ")))
+print(l)
+print("the index of the minimum element : ",l.index(min(l)))
+print("The index of the maximum element : ",l.index(max(l)))
