@@ -1,0 +1,9 @@
+n=int(input("Enter the list size : "))
+l=[]
+for i in range(n):
+	l.append(input("Enter list elements l[" +str(i) + "] : "))
+print("List before reversing: ",l)
+print("using slicing: ",l[::-1]) #using slicing operator
+#using reverse method
+l.reverse() 
+print("using method : ",l)
