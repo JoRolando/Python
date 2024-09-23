@@ -1,0 +1,8 @@
+#l=[10,20,10,40,10]
+n=int(input("Enter the range of list: "))
+l=[]
+for i in range(0,n):
+	l.append(int(input("Enter element l[" + str(i) + "]: ")))
+key=int(input("Enter an element you want to delete(1st occurenece) : "))
+l.remove(key)
+print(l)
