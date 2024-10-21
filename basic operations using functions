@@ -1,0 +1,16 @@
+def basic_op(operator, value1, value2):
+    if operator == '+':
+        return value1 + value2
+    elif operator == '-':
+        return value1 - value2
+    elif operator == '*':
+        return value1 * value2 
+    elif operator == '/':
+        return value1 / value2
+    else:
+        return 'Invalid operator'
+op = input('Enter operator: ')
+val1 = int(input('Enter first value: '))
+val2 = int(input('Enter second value: '))
+print(basic_op(op, val1, val2))
+ 
