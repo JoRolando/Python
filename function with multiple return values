@@ -1,0 +1,19 @@
+# prompt: write a program to define a function with multiple return values
+
+def multiple_returns(a, b):
+  """
+  This function returns multiple values:
+  - The sum of a and b
+  - The product of a and b
+  - The difference between a and b
+  """
+  sum_ab = a + b
+  product_ab = a * b
+  diff_ab = a - b
+  return sum_ab, product_ab, diff_ab
+
+# Example usage:
+result_sum, result_product, result_diff = multiple_returns(5, 3)
+print("Sum:", result_sum)
+print("Product:", result_product)
+print("Difference:", result_diff) 
